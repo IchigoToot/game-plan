@@ -18,6 +18,10 @@ Navy:   #192B37
     min-height: 10rem;
 }
 
+.opacity {
+    opacity: 60;
+}
+
 .landscape {padding-bottom:65%;}
 .portrait {padding-bottom:125%;}
 .square {padding-bottom:100%;}
@@ -53,8 +57,8 @@ body {
 /* Temporaray Styles */
 
 h2,h3, h4, h5,h6 {
-margin-bottom: 1rem;
-line-height: 1.1;
+/* margin-bottom: 1rem; */
+/* line-height: 1.1; */
 
 }
 /* Typography Styles */
@@ -114,11 +118,13 @@ line-height:1.1;
 
 
 
-/* --------------Header and FooteStyles--------- */
-header {
-    background-image:   url("/images/dice\ \(1\).jpg");
+/* --------------Header and Footer Styles--------- */
+.firstdice {
+    background-image:url("/images/dice\ \(1\).jpg");
     background-size:     cover;
-    background-position: center ;
+    background-position: center;
+    background-color: rgba(240,240,240,1);
+    padding: 1% 2%;
 }
 
 header h3 {
@@ -152,3 +158,19 @@ footer a {
   .right {
       text-align: right;
   }
+
+
+  @media (max-width: 64em) {
+	.show-md { display: block; }
+	.hide-md { display: none; }
+}
+
+@media (max-width: 48em) {
+	 .show-sm { display: block; }
+	 .hide-sm { display: none; }
+}
+
+@media (max-width: 36em) {
+		.show-xs { display: block; }
+		.hide-xs { display: none; }
+}
