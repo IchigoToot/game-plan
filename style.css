@@ -16,7 +16,7 @@ Navy:   #192B37
     background-image: url('/images/dice(1).jpg');
     background-size: cover;
     min-height: 10rem;
-}
+ }
 
 .opacity {
     opacity: 60;
@@ -123,13 +123,14 @@ line-height:1.1;
     background-image:url("/images/dice\ \(1\).jpg");
     background-size:     cover;
     background-position: center;
-    background-color: rgba(240,240,240,1);
+    /* background-color: rgba(240,240,240,1); */
     padding: 1% 2%;
 }
 
 header h3 {
     font-size: 4.5rem;
     line-height: 1;
+ 
 }
 
 footer a {
