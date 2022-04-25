@@ -13,7 +13,7 @@ Navy:   #192B37
 
 /*image Styles*/
 .bg-image {
-    background-image: url('/images/dice(1).jpg');
+    background-image: url('/images/dice(6).jpg');
     background-size: cover;
     min-height: 10rem;
  }
@@ -119,27 +119,25 @@ line-height:1.1;
 
 
 /* --------------Header and Footer Styles--------- */
-/* .firstdice {
-    background-image: url(/images/dice\ \(1\).jpg);
+/* .firstdice {  */
+    /* background-image: url(/images/dice\ \(1\).jpg); */
     /* background-size: 90vh; */
     /* background-position: center; */
     /* background-color: rgba(240,240,240,1); */
-    /* padding: 1% 2%; */
-    /*repeat: no-repeat; */
-}
+    /* padding: 1% 2%;
+    repeat: no-repeat; */
+/* }
 
 header {
-    background-image: url("/images/dice\ \(6\).jpg");
     background-size:     cover;
     background-position: center ;
-}
+} */
 
 
 header h3 {
     font-size: 4.5rem;
     line-height: 1;
- 
-}
+ }
 
 footer a {
     border:none;
@@ -148,12 +146,18 @@ footer a {
 /* background Images */
 .bg-bed{
      background-image:url("/images/dice\ \(2\).jpg")}
-.bg-pug{ 
-    background-image: url("/images/dice\ \(3\).jpg");background-position: 50% 35%;
+.bg-blue-dice{ 
+    background-image: url("/images/dice\ \(2\).jpg");background-position: 50% 35%;
 }
 .bg-pillow {
     background-image: url("/images/dice\ \(4\).jpg");
     background-position: 50% 57%;
+}
+.bg-light-dice {
+    background-image: url(/images/dice\ \(6\).jpg);
+    background-size: cover;
+    background-position: center ;
+    /* opacity: 30%; */
 }
 
 /* Icon grid */
