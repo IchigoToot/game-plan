@@ -120,11 +120,12 @@ line-height:1.1;
 
 /* --------------Header and Footer Styles--------- */
 .firstdice {
-    background-image:url("/images/dice\ \(1\).jpg");
-    background-size:     cover;
+    background-image: url(/images/dice\ \(1\).jpg);
+    background-size: 90vh;
     background-position: center;
     /* background-color: rgba(240,240,240,1); */
     padding: 1% 2%;
+    repeat: no repeat;
 }
 
 header h3 {
