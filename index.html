@@ -2,21 +2,11 @@
 layout: default
 ---
 <!------------------------ Headear Banner-------------------------->
-    <header class="padded grid text-center tall-100 bg-light-dice">
-        <div class="header-nav col-12 grid">
-            <div class="col-4">
-                <a href="/index.html" class="logo">
-                <h2>GAME PLAN</h2>
-                </a>
-            </div>
-                <nav class="col-8 right">
-                <a href="/index.html">Home</a>
-                <a href="/about.html">About</a> 
-                <a href="/products.html">Product</a>
-                <a href="/contact.html">contact</a>
-             </nav>
-        </div>
-       <div class="col-12-middle editable">
+<header class="padded grid text-center tall-100 bg-light-dice">
+ 
+    {% include header-nav.html%}
+    
+    <div class="col-12-middle editable">
         <h3 class="editable"> <span class="featured-text editable"> GAME </span class="editable"> PLAN</h3>
         <h1 class="font-weight-light editable"> The Ultimate D&D Show</h1>
        </div>
