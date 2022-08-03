@@ -90,6 +90,18 @@ a {
 a:hover {
     color: #FFBE00;
 }
+
+/* Random Card Generator Styles */
+.button {
+    border: 2px solid;
+    padding: 2%;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: teal;
+  }
+
 .featured-text{ color: #FFBE00;}
 .white-text{ color: white;}
 
