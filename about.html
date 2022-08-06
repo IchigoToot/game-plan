@@ -1,5 +1,21 @@
 ---
 layout: default
+gallery:
+  - column-size: col-4_sm-12
+    aspect-ratio: square
+    background_image: /images/the-sleep-co-original1.jpg
+  - column-size: col-4_sm-12
+    aspect-ratio: square
+    background_image: /images/the-sleep-co-original2.jpg
+  - column-size: col-12
+    aspect-ratio: landscape
+    background_image: /images/the-sleep-co-original3.jpg
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /images/the-sleep-co-original4.jpg
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /images/the-sleep-co-original3.jpg
 ---
 
 <!------------------------ Headear Banner-------------------------->
@@ -11,22 +27,48 @@ layout: default
         <h3 class="editable"> <span class="featured-text editable"> GAME </span class="editable"> PLAN</h3>
         <h1 class="font-weight-light editable"> The Ultimate D&D Show</h1>
        </div>
-    </header>
+</header>
 
-    <!-- Intro  -->
-    <section>
-        <div>
-            <h2 class="editable left"> explanation about the project </h2>
+<!-- Intro  -->
+<section>
+    <div>
+        <h2 class="editable left"> explanation about the project </h2>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga in veniam, dicta ipsum natus. Eligendi ducimus veritatis explicabo animi, velit delectus, ea ullam eum voluptas eos cumque nostrum magnam!</p>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Random Player Card Generator -->
-    <section>
+<!-- Random Player Card Generator -->
+<section>
     <div>
         <h2> Choose your player</h2>
-        <section>
-            <h1> What Game Should I Play?</h1>
             <a id="game-button" class="button"> Tell Me What To Play</a>
-            <div id="game Suggestion"></div>
-          </section>
+        <div id="game Suggestion"></div>
+</section>
+
+<!-- Rule Explaining Section  -->
+<section>
+    <h2 class="bg-dark"> Rules To Abide By</h2>
+        <p class="light-text">Dm Is God </p>
+        <p> Definitly Listen To His Every Word</p>
+        <p> But in all honesty have some fucking fun with it.
+                we're counting on you for the magical flow of ths game and hope you share the same passion to it as we do!
+        </p>
+</section>
+
+<!-- Introducing The Cast -->
+<section>
+    <h3 class="light-section"> Introducing our lovely people</h3>
+    <div>
+        {% for item in page.gallery %}
+
+        <div class="{{item.column-size}}">
+          <div class="bg-image {{item.aspect-ratio}}"
+               style="background-image: url('{{item.background_image}}');">
+          </div>
+        </div>
+    
+        {% endfor %}
+    </div>
+
+    <div></div>
+</section>
